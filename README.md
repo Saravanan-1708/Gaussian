@@ -21,6 +21,7 @@ Developed by: saravanan R
 RegisterNumber: 26008206
 */
 ```
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -46,7 +47,7 @@ for i in range(n-2,-1,-1):
      x[i]=x[i]/a[i][i]
 for i in range(n):
         print('X%d = %0.2f '%(i, x[i]),end='')
-        
+ ```       
 ## Output:
 ![gaussian elimination]()<img width="1418" height="877" alt="Screenshot 2026-10-24 091244" src="https://github.com/user-attachments/assets/6ad836ad-c646-4589-a86d-710ea32446c7" />
 
